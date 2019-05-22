@@ -3,11 +3,11 @@
 	require_once "vendor/leafo/scssphp/scss.inc.php";
 	use Leafo\ScssPhp\Compiler;
 	$scss = new Compiler();
-
+	$scss->setImportPaths('css/scss/');
 	
 	$scssIn = file_get_contents(__DIR__ . '/css/scss/custom.scss');
 	$cssOut = $scss->compile($scssIn);
-	file_put_contents(__DIR__ . '/css/custom.css', $cssOut);
+	file_put_contents(__DIR__ . '/css/style.css', $cssOut);
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,13 +30,8 @@
 	<meta property="og:description" content="Czech larp collection book. 10 take & play larps, you may taste on your own.">
 	<meta property="og:locale" content="en_US">
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
 	<link rel="stylesheet" type="text/css" href="css/style.min.css?v=6">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/custom.css?v=0">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=0">
 	<script type="text/javascript" src="js/script.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -79,7 +74,7 @@
 	
 
 
-	<div class="row main-cta" id="insideCta">
+	<div class="row justify-content-center main-cta" id="insideCta">
 		<a href="#insideCta" class="cta cta-look" onclick="$('.inside-thumb')[0].click()">Look inside</a>
 	</div>
 </div>

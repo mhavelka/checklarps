@@ -1,4 +1,4 @@
-@import "bootstrap/bootstrap";
+@import "bootstrap/bootstrap-grid.scss";
 
 body {
 	font-family: 'Zilla Slab', serif;
@@ -33,17 +33,16 @@ h2 {
     z-index: -1;
 }
 
-.main-cta{
+.main-cta {
     margin: 50px 0;
+		@media (min-width:768px) {
+      position: absolute;
+      bottom: 10rem;
+      width: 100%;
+      margin: 0;
+	}
 }
-@media (min-width:768px) {
-    .main-cta {
-        position: absolute;
-        bottom: 10rem;
-        width: 100%;
-        margin: 0;
-    }
-}
+
 a.cta {
     border: 2px solid #00b5b5;
     color: #00b5b5;
@@ -66,17 +65,14 @@ a.cta-seeMore {
 		padding: 12px 26px;
 }
 
-@media (min-width: 768px) {
-	.main-header {
-		margin-top: 15rem;
-	}
-}
-
 .main-header {
 		margin-top: 5rem;
-    font-size: 6rem;
-    font-weight: 300;
-    letter-spacing: 15px;
+		font-size: 6rem;
+		font-weight: 300;
+		letter-spacing: 15px;
+	@media (min-width: 768px) {
+			margin-top: 15rem;
+	}
 }
 .main-subheader {
     color: #999;
