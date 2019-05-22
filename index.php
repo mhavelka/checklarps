@@ -1,5 +1,13 @@
 <?php
 	require "data.php";
+	require_once "vendor/leafo/scssphp/scss.inc.php";
+	use Leafo\ScssPhp\Compiler;
+	$scss = new Compiler();
+
+	
+	$scssIn = file_get_contents(__DIR__ . '/css/scss/custom.scss');
+	$cssOut = $scss->compile($scssIn);
+	file_put_contents(__DIR__ . '/css/custom.css', $cssOut);
 ?>
 <!DOCTYPE html>
 <html>

@@ -1,0 +1,205 @@
+@import "bootstrap/bootstrap";
+
+body {
+	font-family: 'Zilla Slab', serif;
+	font-size: 16px;
+    padding-bottom: 100px;
+}
+
+h1, h2, h3 {
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+}
+h2 {
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+
+.fist-slide {
+	min-height: 100vh;
+	position: relative;
+}
+.book-bg {
+    background: url('../img/larps/Don Juan.jpg');
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: -8% 100%;
+    min-height: 110vh;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.main-cta{
+    margin: 50px 0;
+}
+@media (min-width:768px) {
+    .main-cta {
+        position: absolute;
+        bottom: 10rem;
+        width: 100%;
+        margin: 0;
+    }
+}
+a.cta {
+    border: 2px solid #00b5b5;
+    color: #00b5b5;
+    display: inline-block;
+	font-family: 'Poppins', sans-serif;
+    padding: 15px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.cta-buy {
+    margin-top: 100px;
+}
+a.cta-buy > span {
+    margin-left: 10px;
+}
+.cta-materials {
+		margin-top: 32px;
+}
+a.cta-seeMore {
+		padding: 12px 26px;
+}
+
+@media (min-width: 768px) {
+	.main-header {
+		margin-top: 15rem;
+	}
+}
+
+.main-header {
+		margin-top: 5rem;
+    font-size: 6rem;
+    font-weight: 300;
+    letter-spacing: 15px;
+}
+.main-subheader {
+    color: #999;
+    font-weight: 300;
+    font-size: 2.2rem;
+    text-transform: none;
+    font-family: 'Zilla Slab', serif;
+}
+
+ul li {
+	list-style: none;
+}
+ul li:before {
+	content: "›";
+	color: #999;
+	padding-right: .5em;
+}
+
+.testimonial {
+	color: #666;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.testimonial-content {
+	font-style: italic;
+}
+.testimonial-author {
+	margin-top: 1rem;
+}
+.testimonial-author:before {
+	content: "– ";
+}
+
+
+@media (max-width:767px) {
+    .number {
+        margin-top: 4rem;
+    }
+    .big, .big+p {
+        display: inline-block;
+    }
+    .big {
+        font-size: 5rem;
+        margin-right: 10px;
+        top: 10px;
+        position: relative;
+    }
+}
+@media (min-width:768px) {
+    .numbers {
+        margin: 15rem 0 0;
+    }
+    .big {
+        font-size: 5rem;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+    }
+    .big:after {
+        content: "";
+        display: block;
+        border-bottom: 2px solid #ccc;
+        width: 25%;
+        margin: 0px auto 18px;
+        color: #ccc;
+    }
+}
+
+
+a {
+	color: #000;
+	text-decoration: underline;
+}
+
+a:hover, a:focus {
+	color: #333;
+	text-decoration: none;
+}
+
+a.inside-thumb {
+    display: inline-block;
+    height: 220px;
+    margin: 10px;
+    border: 2px solid #bdbdbd;
+}
+.inside-thumb img {
+    height: 100%;
+}
+
+
+
+a.thumbnail, a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover  {
+    border: none;
+}
+a.thumbnail:focus h1, a.thumbnail:hover h1 {
+    text-decoration: underline;
+}
+
+
+
+.area-hidden {display: none}
+.expanded .area-hidden {display: block}
+.expanded .show-more {display: none}
+.modal-body {
+    padding-bottom: 50px;
+}
+
+.editor-name {
+    text-transform: capitalize;
+    margin-top: 0;
+}
+.editors-row > div {
+    margin-top: 20px;
+}
+.editors-heading {
+    margin-top: 70px;
+}
+
+.gameModal__icon {
+		width: 20%;
+		margin: 12px;
+}
+
+.gameModal_line {
+		margin: 28px 0px 20px 0px;
+}
