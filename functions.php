@@ -15,7 +15,7 @@ function carouselItem(int $index, string $active) {
     $active = $active ? 'active': ''; 
     echo (
         '<div class="carousel-item '.$active.'">
-        <a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside'.$index.'.png"><img class="d-block w-100" src="img/inside/inside'.$index.'.png" alt="First slide"></a>
+        <a class="inside-thumb" data-fancybox="gallery_carousel" href="img/inside/inside'.$index.'.png"><img class="d-block w-100" src="img/inside/inside'.$index.'.png" alt="First slide"></a>
         </div>'
     );
 }

@@ -26,11 +26,9 @@
 	<meta property="og:locale" content="en_US">
 
 	<!-- This is obsolete styling from bootstrap3. Needs to be preserved until refactoring -->
-	
-	<link rel="stylesheet" type="text/css" href="css/style.css?v=0">
 	<link rel="stylesheet" type="text/css" href="css/style.min.css?v=6">
+	<link rel="stylesheet" type="text/css" href="css/style.css?v=0">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="jquery.fancybox.min.js"></script>
 
@@ -86,13 +84,13 @@
 	<h2>Inside the book</h2>
 
 	<div id=insideTheBook__list class="inside-wrap">
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside1.png"><img src="img/inside/inside1.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside2.png"><img src="img/inside/inside2.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside3.png"><img src="img/inside/inside3.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside4.png"><img src="img/inside/inside4.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside5.png"><img src="img/inside/inside5.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside6.png"><img src="img/inside/inside6.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside7.png"><img src="img/inside/inside7.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside1.png"><img src="img/inside/inside1.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside2.png"><img src="img/inside/inside2.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside3.png"><img src="img/inside/inside3.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside4.png"><img src="img/inside/inside4.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside5.png"><img src="img/inside/inside5.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside6.png"><img src="img/inside/inside6.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside7.png"><img src="img/inside/inside7.png"></a>
 	</div>
 
 	<div id="insideTheBook__carousel" class="carousel slide" data-ride="carousel">
@@ -121,12 +119,13 @@
 	</h2>
 
 	<div class="row">
+		<!-- TO-DO: Refactor this and encapsulate to functions -->
 		<?php foreach ($games as $key => $game) { ?>
 
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 <?php if ($key >= 3) echo 'area-hidden' ?>">
 					
-					<div class="row text-left">
-						<div class="col-xs-4">
+					<div class="row justify-content-center text-left">
+						<div class="col-xs-8 col-md-4">
 							<img class="img-responsive" src="img/larps/<?= $game['image'] ?>">
 						</div>
 						<div class="col-xs-8 col-lg-6">
