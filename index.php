@@ -1,13 +1,8 @@
 <?php
 	require "data.php";
-	require_once "vendor/leafo/scssphp/scss.inc.php";
-	use Leafo\ScssPhp\Compiler;
-	$scss = new Compiler();
-	$scss->setImportPaths('css/scss/');
+	require "functions.php";
 	
-	$scssIn = file_get_contents(__DIR__ . '/css/scss/custom.scss');
-	$cssOut = $scss->compile($scssIn);
-	file_put_contents(__DIR__ . '/css/style.css', $cssOut);
+	compileScss();
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,9 +25,14 @@
 	<meta property="og:description" content="Czech larp collection book. 10 take & play larps, you may taste on your own.">
 	<meta property="og:locale" content="en_US">
 
-	<link rel="stylesheet" type="text/css" href="css/style.min.css?v=6">
+	<!-- This is obsolete styling from bootstrap3. Needs to be preserved until refactoring -->
+	
 	<link rel="stylesheet" type="text/css" href="css/style.css?v=0">
-	<script type="text/javascript" src="js/script.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.min.css?v=6">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="jquery.fancybox.min.js"></script>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -83,17 +83,32 @@
 
 <div class="container container-sm text-center" id="inside">
 
-	<!-- <h2>Inside the book</h2> -->
+	<h2>Inside the book</h2>
 
-	<div class="inside-wrap">
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside 01.png"><img src="img/inside/inside 01.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside 02.png"><img src="img/inside/inside 02.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside 03.png"><img src="img/inside/inside 03.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside 04.png"><img src="img/inside/inside 04.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside 05.png"><img src="img/inside/inside 05.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside 06.png"><img src="img/inside/inside 06.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside 07.png"><img src="img/inside/inside 07.png"></a>
+	<div id=insideTheBook__list class="inside-wrap">
+		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside1.png"><img src="img/inside/inside1.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside2.png"><img src="img/inside/inside2.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside3.png"><img src="img/inside/inside3.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside4.png"><img src="img/inside/inside4.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside5.png"><img src="img/inside/inside5.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside6.png"><img src="img/inside/inside6.png"></a>
+		<a class="inside-thumb" data-fancybox="gallery" href="img/inside/inside7.png"><img src="img/inside/inside7.png"></a>
 	</div>
+
+	<div id="insideTheBook__carousel" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<?php renderCarouselItems(7) ?>
+		</div>
+		<a class="carousel-control-prev" href="#insideTheBook__carousel" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#insideTheBook__carousel" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
 
 
 	<a href="#" class="cta cta-buy">Buy the book <span>$19.90</span></a>

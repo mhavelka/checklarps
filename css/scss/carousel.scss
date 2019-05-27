@@ -1,0 +1,15 @@
+#insideTheBook__list {
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
+
+#insideTheBook__carousel {
+  @include media-breakpoint-up(sm) {
+    display: block;
+  }
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
