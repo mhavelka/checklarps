@@ -22,17 +22,20 @@ h2 {
   min-height: 100vh;
   position: relative;
 }
-.book-bg {
-  background: url("../img/larps/Don Juan.jpg");
-  background-size: 25%;
-  background-repeat: no-repeat;
-  background-position: -8% 100%;
-  min-height: 110vh;
-  min-width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
+
+@include media-breakpoint-up(md) {
+  .book-bg {
+    background: url("../img/larps/Don Juan.jpg");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: -8% 100%;
+    min-height: 110vh;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
 }
 
 .main-cta {

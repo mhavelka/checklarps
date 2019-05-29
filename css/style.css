@@ -5693,6 +5693,16 @@ button.close {
   #insideTheBook__carousel {
     display: none; } }
 
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: #495057; }
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #495057; }
+
 body {
   font-family: "Zilla Slab", serif;
   font-size: 16px;
@@ -5710,17 +5720,18 @@ h2 {
   min-height: 100vh;
   position: relative; }
 
-.book-bg {
-  background: url("../img/larps/Don Juan.jpg");
-  background-size: 25%;
-  background-repeat: no-repeat;
-  background-position: -8% 100%;
-  min-height: 110vh;
-  min-width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1; }
+@media (min-width: 768px) {
+  .book-bg {
+    background: url("../img/larps/Don Juan.jpg");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: -8% 100%;
+    min-height: 110vh;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1; } }
 
 .main-cta {
   margin: 50px 0; }
