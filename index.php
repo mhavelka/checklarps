@@ -43,7 +43,7 @@
 <body>
 
 <div class="book-bg"></div>
-<div class="container container-sm fist-slide text-center">
+<div class="container container-sm fist-slide text-center mt-3 mt-md-0">
 	<h1>
 		<div class="main-header">Check Larps</div>
 		<div class="mt-4 mt-lg-0">
@@ -141,7 +141,7 @@
 								<?= $game['short_annotation'] ?>
 							</p>
               <div class="row justify-content-center justify-content-md-start">
-                  <div class="col-6 text-center">
+                  <div class="text-center">
                     <a class="cta cta-seeMore" data-toggle="modal" data-target=".game<?php echo $key; ?>" href="">See more</a>
                   </div>
               </div>

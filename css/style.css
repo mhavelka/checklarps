@@ -5808,7 +5808,7 @@ h2 {
     z-index: -1; } }
 
 .main-header {
-  margin-top: 5rem;
+  margin-top: 0rem;
   font-size: 6rem;
   font-weight: 300;
   letter-spacing: 15px; }

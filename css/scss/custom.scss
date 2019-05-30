@@ -49,11 +49,11 @@ h2 {
 }
 
 .main-header {
-  margin-top: 5rem;
+  margin-top: 0rem;
   font-size: 6rem;
   font-weight: 300;
   letter-spacing: 15px;
-  @media (min-width: 768px) {
+  @include media-breakpoint-up(md) {
     margin-top: 15rem;
   }
 }
