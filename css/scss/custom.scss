@@ -1,5 +1,8 @@
 @import "bootstrap/bootstrap.scss";
 @import "carousel.scss";
+@import "testimonial.scss";
+@import "cta.scss";
+@import "editor";
 
 body {
   font-family: "Zilla Slab", serif;
@@ -16,6 +19,13 @@ h3 {
 h2 {
   font-size: 3.5rem;
   margin-bottom: 50px;
+}
+
+.container {
+  margin-top: 6rem;
+  @include media-breakpoint-up(sm) {
+    margin-top: 6rem;
+  }
 }
 
 .fist-slide {
@@ -36,38 +46,6 @@ h2 {
     top: 0;
     z-index: -1;
   }
-}
-
-.main-cta {
-  margin: 50px 0;
-  @media (min-width: 768px) {
-    position: absolute;
-    bottom: 10rem;
-    width: 100%;
-    margin: 0;
-  }
-}
-
-a.cta {
-  border: 2px solid #00b5b5;
-  color: #00b5b5;
-  display: inline-block;
-  font-family: "Poppins", sans-serif;
-  padding: 15px 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.cta-buy {
-  margin-top: 100px;
-}
-a.cta-buy > span {
-  margin-left: 10px;
-}
-.cta-materials {
-  margin-top: 32px;
-}
-a.cta-seeMore {
-  padding: 12px 26px;
 }
 
 .main-header {
@@ -94,22 +72,6 @@ ul li:before {
   content: "›";
   color: #999;
   padding-right: 0.5em;
-}
-
-.testimonial {
-  color: #666;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-.testimonial-content {
-  font-style: italic;
-}
-.testimonial-author {
-  margin-top: 1rem;
-}
-.testimonial-author:before {
-  content: "– ";
 }
 
 @media (max-width: 767px) {
@@ -191,17 +153,6 @@ a.thumbnail:hover h1 {
 }
 .modal-body {
   padding-bottom: 50px;
-}
-
-.editor-name {
-  text-transform: capitalize;
-  margin-top: 0;
-}
-.editors-row > div {
-  margin-top: 20px;
-}
-.editors-heading {
-  margin-top: 70px;
 }
 
 .gameModal__icon {

@@ -113,7 +113,7 @@
 </div>
 
 
-<div class="container margin-top-10rem text-center" id="larps">
+<div class="container margin-top-md-10rem margin-top-sm-6rem text-center" id="larps">
 	<h2>
 		larps
 	</h2>
@@ -140,7 +140,11 @@
 							<p>
 								<?= $game['short_annotation'] ?>
 							</p>
-							<a class="cta cta-seeMore" data-toggle="modal" data-target=".game<?php echo $key; ?>" href="">See more</a>
+              <div class="row justify-content-center justify-content-md-start">
+                  <div class="col-6 text-center">
+                    <a class="cta cta-seeMore" data-toggle="modal" data-target=".game<?php echo $key; ?>" href="">See more</a>
+                  </div>
+              </div>
 						</div>
 					</div>
 
@@ -237,7 +241,7 @@
 </div>
 
 
-<div class="container margin-top-10rem text-center">
+<div class="container margin-top-md-10rem margin-top-sm-6rem text-center">
 	<h2>
 		Their thoughts
 	</h2>
@@ -259,12 +263,12 @@
 		</div>
 	</div>
 
-	<a href="#" class="">Buy the book <span>$19.90</span></a>
+  <a href="#" class="cta cta-buy">Buy the book <span>$19.90</span></a>
 </div>
 
 
 
-<div class="container margin-top-10rem " id="more">
+<div class="container margin-top-md-10rem margin-top-sm-6rem" id="more">
 	<h2 class="text-center">
 		More about the book
 	</h2>
@@ -361,7 +365,7 @@
 
 
 
-<div class="container margin-top-10rem text-center">
+<div class="container test margin-top-sm-6rem text-center">
 	<a href="mailto:info@checklarps.com">info@checklarps.com</a>
 	|
 	With love from Brno...

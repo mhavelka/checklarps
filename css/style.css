@@ -5703,35 +5703,24 @@ button.close {
   font-size: 55px;
   color: #495057; }
 
-body {
-  font-family: "Zilla Slab", serif;
-  font-size: 16px;
-  padding-bottom: 100px; }
+.testimonial {
+  color: #666;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.8rem; }
+  @media (min-width: 768px) {
+  .testimonial {
+    font-size: 2rem; } }
 
-h1, h2, h3 {
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase; }
+.testimonial-content {
+  font-style: italic; }
 
-h2 {
-  font-size: 3.5rem;
-  margin-bottom: 50px; }
+.testimonial-author {
+  margin-top: 1rem;
+  text-align: right; }
 
-.fist-slide {
-  min-height: 100vh;
-  position: relative; }
-
-@media (min-width: 768px) {
-  .book-bg {
-    background: url("../img/larps/Don Juan.jpg");
-    background-size: 25%;
-    background-repeat: no-repeat;
-    background-position: -8% 100%;
-    min-height: 110vh;
-    min-width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1; } }
+.testimonial-author:before {
+  content: "– "; }
 
 .main-cta {
   margin: 50px 0; }
@@ -5752,7 +5741,7 @@ a.cta {
   text-decoration: none; }
 
 .cta-buy {
-  margin-top: 100px; }
+  margin-top: 6rem; }
 
 a.cta-buy > span {
   margin-left: 10px; }
@@ -5762,6 +5751,61 @@ a.cta-buy > span {
 
 a.cta-seeMore {
   padding: 12px 26px; }
+
+.editor-img {
+  max-width: 65%;
+  display: inline-block; }
+  @media (min-width: 768px) {
+  .editor-img {
+    display: block;
+    max-width: 100%;
+    height: auto; } }
+
+.editor-name {
+  text-transform: capitalize;
+  margin-top: 0; }
+
+.editors-row > div {
+  margin-top: 20px; }
+
+.editors-heading {
+  margin-top: 70px; }
+
+body {
+  font-family: "Zilla Slab", serif;
+  font-size: 16px;
+  padding-bottom: 100px; }
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 3.5rem;
+  margin-bottom: 50px; }
+
+.container {
+  margin-top: 6rem; }
+  @media (min-width: 576px) {
+  .container {
+    margin-top: 6rem; } }
+
+.fist-slide {
+  min-height: 100vh;
+  position: relative; }
+
+@media (min-width: 768px) {
+  .book-bg {
+    background: url("../img/larps/Don Juan.jpg");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: -8% 100%;
+    min-height: 110vh;
+    min-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1; } }
 
 .main-header {
   margin-top: 5rem;
@@ -5786,21 +5830,6 @@ ul li:before {
   content: "›";
   color: #999;
   padding-right: 0.5em; }
-
-.testimonial {
-  color: #666;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  text-align: center; }
-
-.testimonial-content {
-  font-style: italic; }
-
-.testimonial-author {
-  margin-top: 1rem; }
-
-.testimonial-author:before {
-  content: "– "; }
 
 @media (max-width: 767px) {
   .number {
@@ -5865,16 +5894,6 @@ a.thumbnail:focus h1, a.thumbnail:hover h1 {
 
 .modal-body {
   padding-bottom: 50px; }
-
-.editor-name {
-  text-transform: capitalize;
-  margin-top: 0; }
-
-.editors-row > div {
-  margin-top: 20px; }
-
-.editors-heading {
-  margin-top: 70px; }
 
 .gameModal__icon {
   width: 20%;

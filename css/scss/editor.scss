@@ -1,0 +1,20 @@
+.editor-img {
+  max-width: 65%;
+  display: inline-block;
+  @include media-breakpoint-up(md) {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.editor-name {
+  text-transform: capitalize;
+  margin-top: 0;
+}
+.editors-row > div {
+  margin-top: 20px;
+}
+.editors-heading {
+  margin-top: 70px;
+}

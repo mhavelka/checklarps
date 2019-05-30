@@ -1,0 +1,19 @@
+.testimonial {
+  color: #666;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  @include media-breakpoint-up(md) {
+    font-size: 2rem;
+  }
+}
+.testimonial-content {
+  font-style: italic;
+}
+.testimonial-author {
+  margin-top: 1rem;
+  text-align: right;
+}
+.testimonial-author:before {
+  content: "– ";
+}
