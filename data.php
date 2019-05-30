@@ -1,17 +1,21 @@
 <?php
-$makers = array(
-	array(
-		'name' => 'Lujza Kotryová',
-	),
-	array(
-		'name' => 'Zbyněk "Kilien" Štajer',
-	),
-	array(
-		'name' => 'Michal "Maník" Havelka',
-	),
-	array(
-		'name' => 'Petr "Čiki" Kuběnský',
-	),
+$editors = array(
+    array(
+        'name' => 'Michal Havelka',
+        'about' => 'Michal plays larps because of amazing community around the fenomen. He cofounded larp database portal, organized a lot of festivals and was tutor on larp design course Škool. He is (co)author of nine larps and around thirty articles on larp portals. He loves good beer and tries to explore non-traditional ways of life.',
+    ),
+    array(
+        'name' => 'Lujza Kotryová',
+        'about' => 'Lujza is author of several larps made in Slovakia and the Czech republic. She loves to cut edges of forms, topics and expectations in larp design. She works for Court of Moravia as a gamificator, game designer and consultant bringing playfulness (and larps) into bussinesses. She opened Škool - larp design school for non-larpers. You can read more about her work at her portfolio.',
+    ),
+    array(
+        'name' => 'Petr Kuběnský',
+        'about' => 'Petr is writer, author of several larps and larp theoretician. He is dedicated to czech larp history and collects all stories of larp fathers to his new book. Also, he is standing behind the larp database portal. In his professional life he fall in love with experimental poetry and wrote a book about it.',
+    ),
+    array(
+        'name' => 'Hana Kovářová',
+        'about' => 'Hana is absolvent of larp design course Škool which started her passion for this type of games both as player and author. She is interested in all kinds of games and fun and exploring their possibilities. She also studied a psychology.',
+    ),
 );
 
 $games = array(
