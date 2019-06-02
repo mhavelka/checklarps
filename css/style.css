@@ -5771,6 +5771,35 @@ a.cta-seeMore {
 .editors-heading {
   margin-top: 70px; }
 
+.larp-preview {
+  margin-bottom: 4rem; }
+  @media (min-width: 768px) {
+  .larp-preview {
+    margin-bottom: 3rem; } }
+
+.larp-parameter__value {
+  width: 100%; }
+
+.gameModal__body {
+  padding: 50px 10px;
+  text-align: center; }
+  @media (min-width: 768px) {
+  .gameModal__body {
+    text-align: left; } }
+
+.gameModal__image {
+  display: none; }
+  @media (min-width: 768px) {
+  .gameModal__image {
+    display: block; } }
+
+.gameModal__icon {
+  width: 20%;
+  margin: 12px; }
+
+.gameModal_line {
+  margin: 28px 0px 20px 0px; }
+
 body {
   font-family: "Zilla Slab", serif;
   font-size: 16px;
@@ -5892,18 +5921,13 @@ a.thumbnail:focus h1, a.thumbnail:hover h1 {
 .expanded .show-more {
   display: none; }
 
-.modal-body {
-  padding-bottom: 50px; }
-
-.gameModal__icon {
-  width: 20%;
-  margin: 12px; }
-
-.gameModal_line {
-  margin: 28px 0px 20px 0px; }
-
 .container-sm {
   max-width: 768px; }
 
 .img-responsive {
-  max-width: 100%; }
+  max-width: 70%;
+  display: inline-block; }
+  @media (min-width: 768px) {
+  .img-responsive {
+    max-width: 100%;
+    display: block; } }

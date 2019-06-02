@@ -1,8 +1,9 @@
-@import "bootstrap/bootstrap.scss";
-@import "carousel.scss";
-@import "testimonial.scss";
-@import "cta.scss";
+@import "bootstrap/bootstrap";
+@import "carousel";
+@import "testimonial";
+@import "cta";
 @import "editor";
+@import "game";
 
 body {
   font-family: "Zilla Slab", serif;
@@ -151,23 +152,16 @@ a.thumbnail:hover h1 {
 .expanded .show-more {
   display: none;
 }
-.modal-body {
-  padding-bottom: 50px;
-}
-
-.gameModal__icon {
-  width: 20%;
-  margin: 12px;
-}
-
-.gameModal_line {
-  margin: 28px 0px 20px 0px;
-}
 
 .container-sm {
   max-width: 768px;
 }
 
 .img-responsive {
-  max-width: 100%;
+  max-width: 70%;
+  display: inline-block;
+  @include media-breakpoint-up(md) {
+    max-width: 100%;
+    display: block;
+  }
 }

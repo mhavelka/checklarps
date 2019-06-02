@@ -124,8 +124,8 @@
 
 			<div class="col-xs-12 col-sm-10 col-sm-offset-1 <?php if ($key >= 3) echo 'area-hidden' ?>">
 					
-					<div class="row justify-content-center text-left">
-						<div class="col-xs-8 col-md-4">
+					<div class="row justify-content-center text-left larp-preview">
+						<div class="col-xs-8 col-md-4 text-center">
 							<img class="img-responsive" src="img/larps/<?= $game['image'] ?>">
 						</div>
 						<div class="col-xs-8 col-lg-6">
@@ -153,20 +153,20 @@
 			<div class="modal fade game<?php echo $key; ?>" tabindex="-1" role="dialog" aria-labelledby="">
 				<div class="modal-dialog modal-lg">
 					<div class="modal-content">
-						<div class="modal-body">
-							<div class="row text-left">
+						<div class="gameModal__body">
+							<div class="row">
 
-								<div class="col-xs-9 col-xs-offset-3">
+								<div class="col-xs-12 col-md-9 col-xs-offset-0 col-md-offset-3">
 									<h1>
 										<?php echo $game['title']; ?>
 										<br>
 										<small><?php echo $game['subtitle']; ?></small>
 									</h1>
 								</div>
-								<div class="col-xs-3">
+								<div class="col-xs-3 gameModal__image">
 									<img class="img-responsive" src="img/larps/<?= $game['image'] ?>">
 								</div>
-								<div class="col-xs-9">
+								<div class="col-xs-12 col-md-9">
 									<hr>
 									<p>
 										<?php echo nl2p($game['annotation']); ?>
@@ -177,7 +177,7 @@
 											<div class="">
 												<img src="img/players.svg" class="gameModal__icon" alt="">			
 											</div>
-											<div class="">
+											<div class="larp-parameter__value">
 												<?php
 												$gamePlayers = '';
 												if (!empty($game['players']['male'])) {
@@ -202,7 +202,7 @@
 											<div class="">
 												<img src="img/time.svg" class="gameModal__icon" alt="">			
 											</div>
-											<div class="">
+											<div class="larp-parameter__value">
 												<?php echo $game['duration']; ?> hours
 											</div>
 									</div>
@@ -212,15 +212,17 @@
 											<div class="">
 												<img src="img/authors.svg" class="gameModal__icon" alt="">			
 											</div>
-											<div class="">
+											<div class="larp-parameter__value">
 													<?php echo $game['authors']; ?>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="row text-center">
-								<a href="/materials" class="cta cta-materials">Download additional materials</a>
+							<div class="row justify-content-center">
+                <div class="col-10 col-md-6">
+                  <a href="/materials" class="cta cta-materials">Download additional materials</a>
+                </div>
 							</div>
 						</div>
 					</div>
@@ -248,7 +250,8 @@
 
 	<div class="row">
 		<div class="col-xs-12 col-md-8 col-md-offset-2">
-			<div class="testimonial">
+      <!-- TO-DO: Refactor this, encapsulate to functions and provide data from data.php -->
+      <div class="testimonial">
 				<div class="testimonial-content">Top 11 take &amp; play chamber larps from Czech in one collection. You want that!</div>
 				<div class="testimonial-author">Claus Raasted</div>
 			</div>
