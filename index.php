@@ -29,9 +29,8 @@
 	<link rel="stylesheet" type="text/css" href="css/style.min.css?v=6">
 	<link rel="stylesheet" type="text/css" href="css/style.css?v=0">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="jquery.fancybox.min.js"></script>
-
 	<link href="https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Zilla+Slab:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
 	<!-- fancybox -->
@@ -109,7 +108,6 @@
 
 	<a href="#" class="cta cta-buy">Buy the book <span>$19.90</span></a>
 </div>
-
 
 <div class="container margin-top-md-10rem margin-top-sm-6rem text-center" id="larps">
 	<h2>
@@ -220,9 +218,15 @@
 									</div>
 								</div>
 							</div>
-							<div class="row justify-content-center">
+							<div class="row justify-content-center text-center">
                 <div class="col-10 col-md-6">
-                  <a href="/materials" class="cta cta-materials">Download additional materials</a>
+									<a href="/materials" class="cta cta-materials">Download additional materials</a>
+									<br>
+									<div id="materialsExplanation" onclick="$('#materialsExplanation').popover('toggle')" class="gameModal__note" data-container="body" data-toggle="popover" data-placement="top" data-content="
+									Additional materials are texts, files, images, applications etc. bounded to the game itself. However, manual for the game facilitation and introduction is in the book only. Therefore, materials without the book are useless and you are unable to play the game without the book.
+									">
+											What are additional materials?
+									</div>
                 </div>
 							</div>
 						</div>

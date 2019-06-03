@@ -222,8 +222,6 @@ The game is set in the near future. The players assume roles of a married couple
 	),
 );
 
-
-
 function nl2p($string, $line_breaks = true, $xml = true) {
 	return preg_replace('/\n(\s*\n)*/', '</p><p>', $string);
 }

@@ -39,3 +39,15 @@
   top: -16px;
   left: 10px;
 }
+
+.gameModal__note {
+  display: inline-block;
+  margin-top: 12px;
+  color: $gray-600;
+  cursor: pointer;
+  border-bottom: 1px dotted $gray-600;
+}
+
+.popover {
+  font-size: 1.2rem;
+}

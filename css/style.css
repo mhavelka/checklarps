@@ -5807,6 +5807,16 @@ a.cta-seeMore {
   top: -16px;
   left: 10px; }
 
+.gameModal__note {
+  display: inline-block;
+  margin-top: 12px;
+  color: #6c757d;
+  cursor: pointer;
+  border-bottom: 1px dotted #6c757d; }
+
+.popover {
+  font-size: 1.2rem; }
+
 body {
   font-family: "Zilla Slab", serif;
   font-size: 16px;
