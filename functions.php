@@ -28,6 +28,14 @@ function renderCarouselItems(int $numberOfItems) {
     }
 }
 
+function renderInsideThumbnails(int $numberOfItems) {
+    $component = '';
+    for ($i = 1; $i <= $numberOfItems; $i++) {
+        $component .= '<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside'.$i.'.png"><img src="img/inside/inside'.$i.'.png"></a>';
+    }
+    echo $component;
+}
+
 function renderEditors($editors) {
     $component = '';
     foreach ($editors as $editor) {

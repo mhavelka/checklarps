@@ -73,7 +73,11 @@
 
 
 	<div class="row justify-content-center main-cta" id="insideCta">
-		<a href="#insideCta" class="cta cta-look" onclick="$('.inside-thumb')[0].click()">Look inside</a>
+		<div class="col">
+			<a href="#insideCta" class="cta cta-look" onclick="$('.inside-thumb')[0].click()">Look inside</a>
+			<br>
+			<img src="img/arrow-down.svg" class="navigation-arrowDown" alt="">
+		</div>
 	</div>
 </div>
 
@@ -84,13 +88,7 @@
 	<h2>Inside the book</h2>
 
 	<div id=insideTheBook__list class="inside-wrap">
-		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside1.png"><img src="img/inside/inside1.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside2.png"><img src="img/inside/inside2.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside3.png"><img src="img/inside/inside3.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside4.png"><img src="img/inside/inside4.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside5.png"><img src="img/inside/inside5.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside6.png"><img src="img/inside/inside6.png"></a>
-		<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside7.png"><img src="img/inside/inside7.png"></a>
+		<?php renderInsideThumbnails(7) ?>
 	</div>
 
 	<div id="insideTheBook__carousel" class="carousel slide" data-ride="carousel">

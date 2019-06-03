@@ -165,3 +165,12 @@ a.thumbnail:hover h1 {
     display: block;
   }
 }
+
+.navigation-arrowDown {
+  display: none;
+  @include media-breakpoint-up(md) {
+    margin-top: 64px;
+    width: 64px;
+    display: inline;
+  }
+}

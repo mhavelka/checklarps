@@ -5729,7 +5729,8 @@ button.close {
     position: absolute;
     bottom: 10rem;
     width: 100%;
-    margin: 0; } }
+    margin: 0;
+    height: 110px; } }
 
 a.cta {
   border: 2px solid #00b5b5;
@@ -5931,3 +5932,11 @@ a.thumbnail:focus h1, a.thumbnail:hover h1 {
   .img-responsive {
     max-width: 100%;
     display: block; } }
+
+.navigation-arrowDown {
+  display: none; }
+  @media (min-width: 768px) {
+  .navigation-arrowDown {
+    margin-top: 64px;
+    width: 64px;
+    display: inline; } }
