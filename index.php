@@ -76,7 +76,7 @@
 		<div class="col">
 			<a href="#insideCta" class="cta cta-look" onclick="$('.inside-thumb')[0].click()">Look inside</a>
 			<br>
-			<img src="img/arrow-down.svg" class="navigation-arrowDown" alt="">
+			<img src="img/icons/arrow-down.svg" class="navigation-arrowDown" alt="">
 		</div>
 	</div>
 </div>
@@ -151,6 +151,9 @@
 			<div class="modal fade game<?php echo $key; ?>" tabindex="-1" role="dialog" aria-labelledby="">
 				<div class="modal-dialog modal-lg">
 					<div class="modal-content">
+					<button type="button" class="close gameModal__close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
 						<div class="gameModal__body">
 							<div class="row">
 
