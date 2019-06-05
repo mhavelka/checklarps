@@ -9,21 +9,18 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
-	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
 	<title>Check Larps</title>
-	<meta property="og:title" content="Check Larps">
-
-	<meta name="description" content="">
-	<meta property="og:description" content="">
+	<link rel="icon" type="image/png" href="img/icons/favicon.png">
 
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="http://checklarps.com/img/og_image.jpg">
 	<meta property="og:title" content="Check larps">
 	<meta property="og:description" content="Czech larp collection book. 10 take & play larps, you may taste on your own.">
 	<meta property="og:locale" content="en_US">
+
 
 	<!-- This is obsolete styling from bootstrap3. Needs to be preserved until refactoring -->
 	<link rel="stylesheet" type="text/css" href="css/style.min.css?v=6">

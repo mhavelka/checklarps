@@ -31,4 +31,7 @@ a.cta-buy > span {
 }
 a.cta-seeMore {
   padding: 12px 26px;
+  @include media-breakpoint-up(md) {
+    margin-left: 14px;
+  }
 }
