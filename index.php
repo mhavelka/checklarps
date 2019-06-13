@@ -83,7 +83,7 @@
 
 	<h2>Inside the book</h2>
 
-	<div id=insideTheBook__list class="inside-wrap">
+	<div id="insideTheBook__list" class="inside-wrap">
 		<?php renderInsideThumbnails(7) ?>
 	</div>
 
@@ -219,7 +219,7 @@
                 <div class="col-10 col-md-6">
 									<a href="/materials" class="cta cta-materials">Download additional materials</a>
 									<br>
-									<div id="materialsExplanation" onclick="$('#materialsExplanation').popover('toggle')" class="gameModal__note" data-container="body" data-toggle="popover" data-placement="top" data-content="
+									<div id="materialsExplanation<?= $key ?>" onclick="$('#materialsExplanation<?= $key ?>').popover('toggle')" class="gameModal__note" data-container="body" data-toggle="popover" data-placement="top" data-content="
 									Additional materials are texts, files, images, applications etc. bounded to the game itself. However, manual for the game facilitation and introduction is in the book only. Therefore, materials without the book are useless and you are unable to play the game without the book.
 									">
 											What are additional materials?
