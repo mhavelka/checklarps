@@ -1,0 +1,2 @@
+Preamp: 7.1 dB
+Filter: ON HP Fc 1219.07 Hz
