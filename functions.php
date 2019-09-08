@@ -15,7 +15,7 @@ function carouselItem(int $index, string $active) {
     $active = $active ? 'active': ''; 
     echo (
         '<div class="carousel-item '.$active.'">
-        <a class="inside-thumb" data-fancybox="gallery_carousel" href="img/inside/inside'.$index.'.png"><img class="d-block w-100" src="img/inside/inside'.$index.'.png" alt="First slide"></a>
+        <a class="inside-thumb" data-fancybox="gallery_carousel" href="img/inside/inside'.$index.'.jpg"><img class="d-block w-100" src="img/inside/inside'.$index.'.jpg" alt="First slide"></a>
         </div>'
     );
 }
@@ -31,7 +31,7 @@ function renderCarouselItems(int $numberOfItems) {
 function renderInsideThumbnails(int $numberOfItems) {
     $component = '';
     for ($i = 1; $i <= $numberOfItems; $i++) {
-        $component .= '<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside'.$i.'.png"><img src="img/inside/inside'.$i.'.png"></a>';
+        $component .= '<a class="inside-thumb" data-fancybox="gallery_list" href="img/inside/inside'.$i.'.jpg"><img src="img/inside/inside'.$i.'.jpg"></a>';
     }
     echo $component;
 }
