@@ -103,7 +103,7 @@
 
 
 
-	<a href="#" class="cta cta-buy">Buy the book <span>$19.90</span></a>
+	<?php renderBuyTheBookCTA() ?>
 </div>
 
 <div class="container margin-top-md-10rem margin-top-sm-6rem text-center" id="larps">
@@ -254,21 +254,21 @@
 		<div class="col-xs-12 col-md-8 col-md-offset-2">
       <!-- TO-DO: Refactor this, encapsulate to functions and provide data from data.php -->
       <div class="testimonial">
-				<div class="testimonial-content">Top 11 take &amp; play chamber larps from Czech in one collection. You want that!</div>
-				<div class="testimonial-author">Claus Raasted</div>
+				<div class="testimonial-content">10 step by step manuals how to introduce cool chamber larps. Just to take and play. You want that!</div>
+				<div class="testimonial-author">John Doe</div>
 			</div>
 			<div class="testimonial">
-				<div class="testimonial-content">Top 11 take &amp; play chamber larps from Czech in one collection. You want that!</div>
-				<div class="testimonial-author">Claus Raasted</div>
+				<div class="testimonial-content">I cooperated with guys on translation and I must say this is extraordinary book. They put their best effort into this book, plus, it is a first czech book anout larps in English. Support them!</div>
+				<div class="testimonial-author">Jane Doe</div>
 			</div>
 			<div class="testimonial">
-				<div class="testimonial-content">Top 11 take &amp; play chamber larps from Czech in one collection. You want that!</div>
-				<div class="testimonial-author">Claus Raasted</div>
+				<div class="testimonial-content">Top 10 take &amp; play chamber larps from Czech in one collection. You want that!</div>
+				<div class="testimonial-author">Just Doe</div>
 			</div>
 		</div>
 	</div>
 
-  <a href="#" class="cta cta-buy">Buy the book <span>$19.90</span></a>
+	<?php renderBuyTheBookCTA() ?>
 </div>
 
 

@@ -62,5 +62,11 @@ function Editor(string $name, string $about) {
     );
 }
 
+function renderBuyTheBookCTA() {
+    echo('
+    <a href="https://lulu.com" class="cta cta-buy" target="_blank">Buy the book <span>$29.90</span></a>
+    ');
+}
+
 
 ?>
