@@ -20,7 +20,18 @@ a.cta {
 }
 
 .cta-buy {
+  //margin-top: 6rem;
+}
+
+a.cta-buy-disabled {
+  border: 2px solid #cccccc;
+  color: #cccccc;
+}
+
+.cta-buy-disabled__note {
   margin-top: 6rem;
+  color: #cccccc;
+  font-style: italic;
 }
 
 a.cta-buy > span {

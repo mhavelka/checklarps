@@ -12,10 +12,10 @@ $editors = array(
         'name' => 'Petr Kuběnský',
         'about' => 'Petr is writer, author of several larps and larp theoretician. He is dedicated to czech larp history and collects all stories of larp fathers to his new book. Also, he is standing behind the larp database portal. In his professional life he fall in love with experimental poetry and wrote a book about it.',
     ),
-    array(
-        'name' => 'Hana Kovářová',
-        'about' => 'Hana is absolvent of larp design course Škool which started her passion for this type of games both as player and author. She is interested in all kinds of games and fun and exploring their possibilities. She also studied a psychology.',
-    ),
+//     array(
+//         'name' => 'Hana Kovářová',
+//         'about' => 'Hana is absolvent of larp design course Škool which started her passion for this type of games both as player and author. She is interested in all kinds of games and fun and exploring their possibilities. She also studied a psychology.',
+//     ),
 );
 
 $games = array(
