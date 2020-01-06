@@ -64,7 +64,7 @@ function Editor(string $name, string $about) {
 
 function renderBuyTheBookCTA() {
     echo('
-        <div class="cta-buy-disabled__note">Will be available since 29/01/2020</div>
+        <div class="cta-buy-disabled__note">Will be available since 10/02/2020</div>
         <a href="/" class="cta cta-buy cta-buy-disabled" target="_blank">Buy the book <span>$29.90</span></a>
         ');
 //     echo('
