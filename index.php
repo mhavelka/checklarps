@@ -250,25 +250,24 @@
 		Their thoughts
 	</h2>
 
-	<div class="row">
-		<div class="col-xs-12 col-md-8 col-md-offset-2">
+  <div class="row">
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
       <!-- TO-DO: Refactor this, encapsulate to functions and provide data from data.php -->
       <div class="testimonial">
-				<div class="testimonial-content">10 step by step manuals how to introduce cool chamber larps. Just to take and play. You want that!</div>
-				<div class="testimonial-author">John Doe</div>
-			</div>
-			<div class="testimonial">
-				<div class="testimonial-content">I cooperated with guys on translation and I must say this is extraordinary book. They put their best effort into this book, plus, it is a first czech book anout larps in English. Support them!</div>
-				<div class="testimonial-author">Jane Doe</div>
-			</div>
-			<div class="testimonial">
-				<div class="testimonial-content">Top 10 take &amp; play chamber larps from Czech in one collection. You want that!</div>
-				<div class="testimonial-author">Just Doe</div>
-			</div>
-		</div>
-	</div>
+        <div class="testimonial-content">This collection includes ten battle-tested larps from Czechia, showcasing a vibrant play culture that may be intriguingly different from your own, but still entirely relatable. These games are brimming with new ideas, cover a vast swath of thematic territory, and are totally worth exploring.</div>
+        <div class="testimonial-author">Jason Morningstar, USA</div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-content">Precisely crafted experiences, at the reach of your hands! From soul crushin dilemmas to heartful laughter: Czech larp is a book full of emotions. Just take & play them!</div>
+        <div class="testimonial-author">Dominik Dembiński, creator of College of Wizardry, Poland </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-content">... more about to come.</div>
+      </div>
+    </div>
+  </div>
 
-	<?php renderBuyTheBookCTA() ?>
+  <?php renderBuyTheBookCTA() ?>
 </div>
 
 
