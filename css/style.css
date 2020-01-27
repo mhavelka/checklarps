@@ -5741,8 +5741,14 @@ a.cta {
   text-transform: uppercase;
   text-decoration: none; }
 
-.cta-buy {
-  margin-top: 6rem; }
+a.cta-buy-disabled {
+  border: 2px solid #ccc;
+  color: #ccc; }
+
+.cta-buy-disabled__note {
+  margin-top: 6rem;
+  color: #ccc;
+  font-style: italic; }
 
 a.cta-buy > span {
   margin-left: 10px; }
@@ -5819,6 +5825,13 @@ a.cta-seeMore {
 
 .popover {
   font-size: 1.2rem; }
+
+.contributors-header {
+  font-weight: 700; }
+
+.contributors-content {
+  font-style: italic;
+  margin: 12px 0; }
 
 body {
   font-family: "Zilla Slab", serif;

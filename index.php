@@ -319,6 +319,101 @@
       <?php renderEditors($editors) ?>
   </div>
 
+  <h2 class="text-center editors-heading">Big thanks to contributors</h2>
+
+  <div class="row editors-row">
+  		<div class="col-xs-12 col-md-6 col-lg-3">
+			<div class="contributors-header">
+			Translators
+			</div>
+			<div class="contributors-content">
+				Gabriela Fialová<br>
+				Iva Vávrová<br>
+				Kristína Kureková<br>
+				Kristýna Chvojková<br>
+				Barbora Růžičková<br>
+				Dagmar Wiesnerová<br>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-6 col-lg-3">
+			<div class="contributors-header">
+			English proofreaders
+			</div>
+			<div class="contributors-content">
+				Jason Morningstar<br>
+				Nathan Hook<br>
+				Marshall Miller<br>
+				Gaylord Tang<br>
+				Mo Holkar<br>
+				Marta Błaszkiewicz<br>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-6 col-lg-3">
+			<div class="contributors-header">
+			Czech proofreaders
+			</div>
+			<div class="contributors-content">
+				Martina Drabinová<br>
+				Josef Tisoň<br>
+				Andrea Špoková<br>
+				Kateřina Holendová<br>
+				Marek Boček<br>
+				Tereza Cirila Havelková<br>
+				Jan Páral<br>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-6 col-lg-3">
+			<div class="contributors-header">
+			Consultants and other helpers
+			</div>
+			<div class="contributors-content">
+				Hana Kovářová<br>
+				Jindřich Mašek<br>
+				Zbyněk Štajer<br>
+				Tereza Chocholatá<br>
+				Lizzie Stark<br>
+				Jakub Maruš<br>
+			</div>
+		</div>
+
+											
+		<div class="col-xs-12 col-md-6 col-lg-3">
+			<div class="contributors-header">
+			Graphic designer
+			</div>
+			<div class="contributors-content">
+				Martin Rašek<br>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-6 col-lg-3">
+			<div class="contributors-header">
+			Illustrator
+			</div>
+			<div class="contributors-content">
+				Kristýna Sochnová<br>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-6 col-lg-3">
+			<div class="contributors-header">
+			Typographer
+			</div>
+			<div class="contributors-content">
+				Martin Rašek<br>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-6 col-lg-3">
+			<div class="contributors-header">
+			Webdesigner
+			</div>
+			<div class="contributors-content">
+				Ondřej Henek<br>
+			</div>
+		</div>
+  </div>
+
 
 
 <div class="container test margin-top-sm-6rem text-center">
