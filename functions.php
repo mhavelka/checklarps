@@ -63,13 +63,9 @@ function Editor(string $name, string $about) {
 }
 
 function renderBuyTheBookCTA() {
-    echo('
-        <div class="cta-buy-disabled__note">Will be available since 10/02/2020</div>
-        <a href="/" class="cta cta-buy cta-buy-disabled" target="_blank">Buy the book <span>€24.90</span></a>
-        ');
-//     echo('
-//     <a href="http://www.lulu.com/shop/check-larps-team/check-larps/paperback/product-24357235.html" class="cta cta-buy" target="_blank">Buy the book <span>$29.90</span></a>
-//     ');
+     echo('
+     <a href="http://www.lulu.com/content/paperback-book/check-larps/25084634" class="cta cta-buy" target="_blank">Buy the book <span>€24.90</span></a>
+     ');
 }
 
 

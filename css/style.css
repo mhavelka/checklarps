@@ -5742,6 +5742,9 @@ a.cta {
   text-transform: uppercase;
   text-decoration: none; }
 
+.cta-buy {
+  margin-top: 6rem; }
+
 a.cta-buy-disabled {
   border: 2px solid #ccc;
   color: #ccc; }
