@@ -1,10 +1,13 @@
 .testimonial {
   color: #666;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   text-align: center;
   font-size: 1.8rem;
   @include media-breakpoint-up(md) {
     font-size: 2rem;
+  }
+  &:last-child {
+    margin-bottom: 0;
   }
 }
 .testimonial-content {

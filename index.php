@@ -262,7 +262,8 @@
         <div class="testimonial-author">Dominik Dembiński, creator of College of Wizardry, Poland </div>
       </div>
       <div class="testimonial">
-        <div class="testimonial-content">... more about to come.</div>
+        <div class="testimonial-content">Check larps is a beautiful book with a clear structure. Even though parts of the design choices feels alien to me, they feel intruigingly alien. The reading experience leaves me feeling inspired to expand on my own design choices. The book is as much about cultural exchange as it is a playing manual or a book about larp design.</div>
+        <div class="testimonial-author">Siri Sandquist, Sweden</div>
       </div>
     </div>
   </div>

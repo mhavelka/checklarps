@@ -5705,12 +5705,14 @@ button.close {
 
 .testimonial {
   color: #666;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   text-align: center;
   font-size: 1.8rem; }
   @media (min-width: 768px) {
   .testimonial {
     font-size: 2rem; } }
+  .testimonial:last-child {
+    margin-bottom: 0; }
 
 .testimonial-content {
   font-style: italic; }
@@ -5723,13 +5725,12 @@ button.close {
   content: "– "; }
 
 .main-cta {
-  margin: 50px 0; }
+  margin: 30px 0; }
   @media (min-width: 768px) {
   .main-cta {
-    position: absolute;
     bottom: 10rem;
     width: 100%;
-    margin: 0;
+    margin: 100px 0;
     height: 110px; } }
 
 a.cta {
