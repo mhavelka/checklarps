@@ -91,7 +91,7 @@ Love. Hate. Happiness. Fear. Friendship. Envy. And Love. Telenovela is a parody 
 		'short_annotation' => 'The story of family secrets and repressed desires updates the timeless themes of love and death in the Paris of the 1930s. Out of the dust of the exhausted Dadaism, a new artistic movement has risen: surrealism.',
 		'duration' => '4-5',
 		'players' => array(
-			'total' => 1,
+			'total' => 5,
 			'male' => 4,
 			'female' => 1,
 			'both' => 0
@@ -114,7 +114,7 @@ One of the aims of the game is to make people think about the way they choose th
 		'short_annotation' => '“Oh, you really do live in your little Neverland, don’t you? The world is cruel, baby doll! But you will get to learn that soon enough, no worries. And you will see what’s beyond the curtain!”',
 		'duration' => '4',
 		'players' => array(
-			'total' => 1,
+			'total' => 5,
 			'male' => 4,
 			'female' => 1,
 			'both' => 0
@@ -134,7 +134,7 @@ The game is set in the near future. The players assume roles of a married couple
 		'short_annotation' => 'Discovering the ways the present and future technology, social networks, and artificial intelligence can influence interpersonal relationships.',
 		'duration' => '3.5',
 		'players' => array(
-			'total' => 1,
+			'total' => 4,
 			'male' => 2,
 			'female' => 2,
 			'both' => 0
@@ -153,7 +153,7 @@ August 1945. The war in Europe ended three months ago, but ferocious battles con
 		'short_annotation' => 'August 1945. A plane with 6 men lands at the American Johnston Island Air Force Base. The top secret meeting has one item on the agenda – a new weapon, never used before – the atomic bomb. ',
 		'duration' => '3',
 		'players' => array(
-			'total' => 1,
+			'total' => 6,
 			'male' => 0,
 			'female' => 0,
 			'both' => 6
@@ -171,7 +171,7 @@ August 1945. The war in Europe ended three months ago, but ferocious battles con
 		'short_annotation' => 'At the end of a high-school reunion, in the middle of the 80s, four former classmates are left in one bar at the frontier of bad dreams and even worse reality. In a whirlwind dance, they\'re falling deeper and deeper into their common dark past, icy fingers of their personal weaknesses hysterically tickling their nerves.',
 		'duration' => '4',
 		'players' => array(
-			'total' => 1,
+			'total' => 4,
 			'male' => 2,
 			'female' => 2,
 			'both' => 0
@@ -189,7 +189,7 @@ August 1945. The war in Europe ended three months ago, but ferocious battles con
 		'short_annotation' => 'The voyage of five souls through time, through key events of human lives, from completely intimate moments to great, historical ones. What impression the souls and their thoughts will make in completely different scenes?',
 		'duration' => '5',
 		'players' => array(
-			'total' => 1,
+			'total' => 5,
 			'male' => 3,
 			'female' => 2,
 			'both' => 0
@@ -210,7 +210,7 @@ The game Two Worlds works with a strong story of a girl whose world is starting 
 Her mother, her therapist, her partner or friends - everyone is doing what they can and it\'s still not enough. Her life gets divided into two worlds and she is gradually losing the grip on either of them.',
 		'duration' => '3-5',
 		'players' => array(
-			'total' => 1,
+			'total' => 6,
 			'male' => 2,
 			'female' => 3,
 			'both' => 1
