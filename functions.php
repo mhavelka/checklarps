@@ -64,7 +64,7 @@ function Editor(string $name, string $about) {
 
 function renderBuyTheBookCTA() {
      echo('
-     <a href="http://www.lulu.com/content/paperback-book/check-larps/25084634" class="cta cta-buy" target="_blank">Buy the book <span>€24.90</span></a>
+     <a href="https://www.lulu.com/shop/check-larps-team/check-larps/paperback/product-196qyve8.html" class="cta cta-buy" target="_blank">Buy the book <span>€24.90</span></a>
      ');
 }
 
