@@ -16,7 +16,7 @@
 	<link rel="icon" type="image/png" href="img/icons/favicon.png">
 
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="http://checklarps.com/img/og_image.jpg">
+	<meta property="og:image" content="http://checklarps.com/img/lujza.jpg">
 	<meta property="og:title" content="Check larps">
 	<meta property="og:description" content="Czech larp collection book. 10 take & play larps, you may taste on your own.">
 	<meta property="og:locale" content="en_US">
