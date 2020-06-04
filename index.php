@@ -342,7 +342,6 @@
 			</div>
 			<div class="contributors-content">
 				Jason Morningstar<br>
-				Nathan Hook<br>
 				Marshall Miller<br>
 				Gaylord Tang<br>
 				Mo Holkar<br>
