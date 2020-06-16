@@ -397,10 +397,10 @@
 		</div>
 		<div class="col-xs-12 col-md-6 col-lg-3">
 			<div class="contributors-header">
-			Typographer
+			Typesetter
 			</div>
 			<div class="contributors-content">
-				Martin Rašek<br>
+				Markéta Tunková<br>
 			</div>
 		</div>
 		<div class="col-xs-12 col-md-6 col-lg-3">
