@@ -6,7 +6,7 @@ $editors = array(
     ),
     array(
         'name' => 'Lujza Kotryová',
-        'about' => 'Lujza is author of several larps made in Slovakia and the Czech republic. She loves to cut edges of forms, topics and expectations in larp design. She works for Court of Moravia as a gamificator, game designer and consultant bringing playfulness (and larps) into bussinesses. She opened Škool - larp design school for non-larpers. You can read more about her work at her portfolio.',
+        'about' => 'Lujza is author of several larps made in Slovakia and the Czech republic. She loves to cut edges of forms, topics and expectations in larp design. She works for Court of Moravia as a gamificator, game designer and consultant bringing playfulness (and larps) into bussinesses. She opened Škool - larp design school for non-larpers. You can read more about her work at her <a href="http://lujza.weebly.com/" target="_blank">portfolio</a>.',
     ),
     array(
         'name' => 'Petr Kuběnský',
